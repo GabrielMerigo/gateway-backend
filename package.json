@@ -1,0 +1,11 @@
+{
+  "name": "gateway-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "stripe": "^12.3.0"
+  },
+  "proxy": "<http://localhost:4242>"
+}
